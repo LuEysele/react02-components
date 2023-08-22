@@ -1,13 +1,13 @@
 import React from "react";
 
-const Student = (props) => {
-  console.log(props);
+const Student = ({info}) => {
+
   return (
     <>
-      <a href={props.url} target="blank">
-        <h4>{props.name}</h4>
+      <a href={info.url} target="blank">
+        <h4>{info.name}</h4>
       </a>
-      <p>Ex alumno: {props.isGraduate? "Sí" : "No"}</p>
+      <p>Ex alumno: {info.isGraduate? "Sí" : "No"}</p>
     </>
   );
 };
