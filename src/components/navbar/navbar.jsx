@@ -17,7 +17,7 @@ const pages = [
 
 */
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <>
         <h4>CH30</h4>
@@ -27,3 +27,14 @@ export const Navbar = () => {
     </>
   )
 }
+
+const Footer = () => {
+    return (
+        <>
+            <p>Derechos no reservados 2023</p>
+            <p>Lo que está en México pertenece a los mexicanos</p>
+        </>
+    )
+}
+
+export {Footer, Navbar};

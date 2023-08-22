@@ -3,7 +3,8 @@ import './App.css';
 import Greeting from './components/greeting/greeting';
 import Poem from './components/poem/poem';
 import Generation from './components/greeting/generation';
-import { Navbar } from './components/navbar/navbar';
+import { Footer, Navbar } from './components/navbar/navbar';
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Greeting />
       <Poem/>
       <Generation/>
-      {/* footer */}
+      <Footer/>
     </div>
   );
 }
