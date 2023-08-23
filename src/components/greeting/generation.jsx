@@ -12,7 +12,8 @@ export default function Generation() {
       </p>
       <h4 id="subtitle">Participantes</h4>
       {
-        studentsInfo.map( studentInfo => <Student info={studentInfo}/> )
+        studentsInfo.map( studentInfo => 
+              <Student info={studentInfo}>GenCh30</Student> )
       }
     </>
   );
